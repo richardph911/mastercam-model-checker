@@ -1,0 +1,8 @@
+# Example drawing - dimensioned plate. All units mm.
+# One annotation per line: stock, hole callouts, pocket callout.
+PART demo-plate
+STOCK 100 60 10
+MATERIAL ALUMINUM 6061
+HOLE D10 THRU AT 20 30 TOL 0.5
+HOLE D10 THRU AT 80 30 TOL 0.5
+POCKET 40 30 DEPTH 5 AT 30 15 TOL 0.5
